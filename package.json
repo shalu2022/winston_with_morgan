@@ -1,0 +1,16 @@
+{
+  "name": "winston_morgan_example",
+  "version": "1.0.0",
+  "description": "Example of Winston and Morgan Set up",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Shalu Chaddha",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "morgan": "^1.10.0",
+    "winston": "^3.13.0"
+  }
+}
