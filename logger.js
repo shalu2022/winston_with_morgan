@@ -40,7 +40,7 @@ const logger = winston.createLogger({
     exitOnError: false, // do not exit on handled exceptions
 
 });
-
+//for morgon
 logger.stream={
     write: function(msg, encoding){
         logger.info(msg)
